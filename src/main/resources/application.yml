@@ -1,0 +1,11 @@
+server:
+  port: 8081
+
+# mybatis
+mybatis:
+  datasource:
+    username: root
+    password: 185450844
+    url: jdbc:mysql://127.0.0.1:3306/mybatis-sen?useUnicode=true&serverTimezone=Asia/Shanghai
+    driver: com.mysql.cj.jdbc.Driver
+    basePackage: cn.sen.middleware.mybatis.spring.test.dao
